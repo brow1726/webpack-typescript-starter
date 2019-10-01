@@ -1,8 +1,8 @@
-import { Greeter } from './greeter';
+import { Greeter } from '../modules/greeter';
 
 describe('Greeter', () => {
     it('should greet', () => {
-        const greeter = new Greeter('Juri');
+        const greeter = new Greeter('Matt');
         spyOn(console, 'log');
 
         greeter.greet();
